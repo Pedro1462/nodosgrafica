@@ -1,0 +1,10 @@
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\bin\Debug\proyectonodo.exe.config
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\bin\Debug\proyectonodo.exe
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\bin\Debug\proyectonodo.pdb
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.csproj.AssemblyReference.cache
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.Form1.resources
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.Properties.Resources.resources
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.csproj.GenerateResource.cache
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.exe
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.pdb
