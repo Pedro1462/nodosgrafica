@@ -8,3 +8,5 @@ C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Av
 C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.csproj.CoreCompileInputs.cache
 C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.exe
 C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.pdb
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\bin\Debug\Aspose.Words.dll
+C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyecto.D3C2377F.Up2Date

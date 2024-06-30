@@ -40,6 +40,7 @@
             this.numNodoDestino = new System.Windows.Forms.NumericUpDown();
             this.agreAdyac = new System.Windows.Forms.Button();
             this.dibAdya = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numNodos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNodoOrigen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNodoDestino)).BeginInit();
@@ -104,7 +105,7 @@
             // 
             this.Adyac.AutoSize = true;
             this.Adyac.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Adyac.Location = new System.Drawing.Point(20, 432);
+            this.Adyac.Location = new System.Drawing.Point(20, 416);
             this.Adyac.Name = "Adyac";
             this.Adyac.Size = new System.Drawing.Size(136, 29);
             this.Adyac.TabIndex = 4;
@@ -134,7 +135,7 @@
             // 
             this.listAdyac.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listAdyac.FormattingEnabled = true;
-            this.listAdyac.Location = new System.Drawing.Point(267, 429);
+            this.listAdyac.Location = new System.Drawing.Point(267, 413);
             this.listAdyac.Name = "listAdyac";
             this.listAdyac.Size = new System.Drawing.Size(179, 37);
             this.listAdyac.TabIndex = 7;
@@ -204,7 +205,7 @@
             // dibAdya
             // 
             this.dibAdya.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dibAdya.Location = new System.Drawing.Point(25, 497);
+            this.dibAdya.Location = new System.Drawing.Point(23, 466);
             this.dibAdya.Name = "dibAdya";
             this.dibAdya.Size = new System.Drawing.Size(176, 80);
             this.dibAdya.TabIndex = 11;
@@ -212,11 +213,23 @@
             this.dibAdya.UseVisualStyleBackColor = true;
             this.dibAdya.Click += new System.EventHandler(this.dibAdya_Click);
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(25, 567);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(174, 80);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Generar Documento";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 701);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dibAdya);
             this.Controls.Add(this.agreAdyac);
             this.Controls.Add(this.numNodoDestino);
@@ -253,6 +266,7 @@
         private System.Windows.Forms.NumericUpDown numNodoDestino;
         private System.Windows.Forms.Button agreAdyac;
         private System.Windows.Forms.Button dibAdya;
+        private System.Windows.Forms.Button button1;
     }
 }
 
