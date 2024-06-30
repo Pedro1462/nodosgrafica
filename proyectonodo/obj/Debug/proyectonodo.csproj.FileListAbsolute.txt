@@ -8,3 +8,13 @@ C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Av
 C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.csproj.CoreCompileInputs.cache
 C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.exe
 C:\Users\pedro\Documents\Pedro\Universidad\Cuatrimestre 3\Estructura de Datos Avanzadas\proyectonodos\proyectonodo\obj\Debug\proyectonodo.pdb
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\bin\Debug\proyectonodo.exe.config
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\bin\Debug\proyectonodo.exe
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\bin\Debug\proyectonodo.pdb
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\obj\Debug\proyectonodo.csproj.AssemblyReference.cache
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\obj\Debug\proyectonodo.Form1.resources
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\obj\Debug\proyectonodo.Properties.Resources.resources
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\obj\Debug\proyectonodo.csproj.GenerateResource.cache
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\obj\Debug\proyectonodo.csproj.CoreCompileInputs.cache
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\obj\Debug\proyectonodo.exe
+D:\proyecto de gino 2\nodosgrafica\proyectonodo\obj\Debug\proyectonodo.pdb

@@ -8,16 +8,18 @@ namespace proyectonodo
 {
     internal class adyacente
     {
-        public int nodoOrigen, nodoDestino;
-        public adyacente(int nodoOrigen, int nodoDestino)
+        int nodoOrigen, nodoDestino;
+        double Peso;
+        public adyacente(int nodoOrigen, int nodoDestino , double Peso)
         {
             this.nodoOrigen = nodoOrigen;
             this.nodoDestino = nodoDestino;
+            this.Peso += Peso;
         }
         override
-        public string ToString()
-        { 
-            return nodoOrigen.ToString()+"->"+nodoDestino.ToString();
+        public String ToString()
+        {
+            return nodoOrigen.ToString() + "->" + nodoDestino.ToString() + " " + Peso.ToString();
         }
     }
 }
