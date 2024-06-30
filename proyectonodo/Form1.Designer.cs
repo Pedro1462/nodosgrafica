@@ -39,6 +39,7 @@
             this.numNodoOrigen = new System.Windows.Forms.NumericUpDown();
             this.numNodoDestino = new System.Windows.Forms.NumericUpDown();
             this.agreAdyac = new System.Windows.Forms.Button();
+            this.dibAdya = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numNodos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNodoOrigen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNodoDestino)).BeginInit();
@@ -47,9 +48,9 @@
             // dibuja
             // 
             this.dibuja.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dibuja.Location = new System.Drawing.Point(61, 28);
+            this.dibuja.Location = new System.Drawing.Point(25, 82);
             this.dibuja.Name = "dibuja";
-            this.dibuja.Size = new System.Drawing.Size(122, 48);
+            this.dibuja.Size = new System.Drawing.Size(176, 62);
             this.dibuja.TabIndex = 0;
             this.dibuja.Text = "Dibuja";
             this.dibuja.UseVisualStyleBackColor = true;
@@ -62,12 +63,13 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(587, 492);
             this.panel.TabIndex = 1;
+            this.panel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Paint);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 109);
+            this.label1.Location = new System.Drawing.Point(20, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(212, 29);
             this.label1.TabIndex = 2;
@@ -76,7 +78,7 @@
             // numNodos
             // 
             this.numNodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numNodos.Location = new System.Drawing.Point(267, 104);
+            this.numNodos.Location = new System.Drawing.Point(267, 40);
             this.numNodos.Maximum = new decimal(new int[] {
             15,
             0,
@@ -95,13 +97,14 @@
             0,
             0,
             0});
+            this.numNodos.ValueChanged += new System.EventHandler(this.numNodos_ValueChanged);
             this.numNodos.Leave += new System.EventHandler(this.numNodos_Leave);
             // 
             // Adyac
             // 
             this.Adyac.AutoSize = true;
             this.Adyac.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Adyac.Location = new System.Drawing.Point(20, 170);
+            this.Adyac.Location = new System.Drawing.Point(20, 432);
             this.Adyac.Name = "Adyac";
             this.Adyac.Size = new System.Drawing.Size(136, 29);
             this.Adyac.TabIndex = 4;
@@ -111,7 +114,7 @@
             // 
             this.nodoOrigen.AutoSize = true;
             this.nodoOrigen.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nodoOrigen.Location = new System.Drawing.Point(20, 224);
+            this.nodoOrigen.Location = new System.Drawing.Point(20, 178);
             this.nodoOrigen.Name = "nodoOrigen";
             this.nodoOrigen.Size = new System.Drawing.Size(153, 29);
             this.nodoOrigen.TabIndex = 5;
@@ -121,7 +124,7 @@
             // 
             this.nodoDestino.AutoSize = true;
             this.nodoDestino.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nodoDestino.Location = new System.Drawing.Point(20, 286);
+            this.nodoDestino.Location = new System.Drawing.Point(20, 237);
             this.nodoDestino.Name = "nodoDestino";
             this.nodoDestino.Size = new System.Drawing.Size(161, 29);
             this.nodoDestino.TabIndex = 6;
@@ -131,7 +134,7 @@
             // 
             this.listAdyac.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listAdyac.FormattingEnabled = true;
-            this.listAdyac.Location = new System.Drawing.Point(267, 162);
+            this.listAdyac.Location = new System.Drawing.Point(267, 429);
             this.listAdyac.Name = "listAdyac";
             this.listAdyac.Size = new System.Drawing.Size(179, 37);
             this.listAdyac.TabIndex = 7;
@@ -140,7 +143,7 @@
             // numNodoOrigen
             // 
             this.numNodoOrigen.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numNodoOrigen.Location = new System.Drawing.Point(267, 219);
+            this.numNodoOrigen.Location = new System.Drawing.Point(267, 173);
             this.numNodoOrigen.Maximum = new decimal(new int[] {
             15,
             0,
@@ -159,11 +162,13 @@
             0,
             0,
             0});
+            this.numNodoOrigen.ValueChanged += new System.EventHandler(this.numNodoOrigen_ValueChanged);
+            this.numNodoOrigen.Leave += new System.EventHandler(this.numNodoOrigen_Leave);
             // 
             // numNodoDestino
             // 
             this.numNodoDestino.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numNodoDestino.Location = new System.Drawing.Point(267, 281);
+            this.numNodoDestino.Location = new System.Drawing.Point(267, 237);
             this.numNodoDestino.Maximum = new decimal(new int[] {
             15,
             0,
@@ -182,11 +187,13 @@
             0,
             0,
             0});
+            this.numNodoDestino.ValueChanged += new System.EventHandler(this.numNodoDestino_ValueChanged);
+            this.numNodoDestino.Leave += new System.EventHandler(this.numNodoDestino_Leave);
             // 
             // agreAdyac
             // 
             this.agreAdyac.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agreAdyac.Location = new System.Drawing.Point(25, 352);
+            this.agreAdyac.Location = new System.Drawing.Point(25, 302);
             this.agreAdyac.Name = "agreAdyac";
             this.agreAdyac.Size = new System.Drawing.Size(176, 80);
             this.agreAdyac.TabIndex = 10;
@@ -194,11 +201,23 @@
             this.agreAdyac.UseVisualStyleBackColor = true;
             this.agreAdyac.Click += new System.EventHandler(this.agreAdyac_Click);
             // 
+            // dibAdya
+            // 
+            this.dibAdya.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dibAdya.Location = new System.Drawing.Point(25, 497);
+            this.dibAdya.Name = "dibAdya";
+            this.dibAdya.Size = new System.Drawing.Size(176, 80);
+            this.dibAdya.TabIndex = 11;
+            this.dibAdya.Text = "Dibujar Adyacencia";
+            this.dibAdya.UseVisualStyleBackColor = true;
+            this.dibAdya.Click += new System.EventHandler(this.dibAdya_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1115, 548);
+            this.ClientSize = new System.Drawing.Size(1115, 701);
+            this.Controls.Add(this.dibAdya);
             this.Controls.Add(this.agreAdyac);
             this.Controls.Add(this.numNodoDestino);
             this.Controls.Add(this.numNodoOrigen);
@@ -233,6 +252,7 @@
         private System.Windows.Forms.NumericUpDown numNodoOrigen;
         private System.Windows.Forms.NumericUpDown numNodoDestino;
         private System.Windows.Forms.Button agreAdyac;
+        private System.Windows.Forms.Button dibAdya;
     }
 }
 
